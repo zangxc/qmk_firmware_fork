@@ -59,11 +59,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Enables This makes it easier for fast typists to use dual-function keys */
 #define PERMISSIVE_HOLD
 
-/* ws2812 RGB LED */
-#define RGB_DI_PIN D3
+#define SPLIT_USB_DETECT
+#define MASTER_RIGHT
 
-#define RGBLED_NUM 12    // Number of LEDs
 
+/* optical sensor settings */
+#define SCROLL_DIVIDER 12
+#define CPI_1 2000
+#define CPI_2 4000
+#define CPI_3 8000
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.

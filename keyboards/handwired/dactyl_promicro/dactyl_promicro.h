@@ -33,3 +33,17 @@
         { R40, R41, R42, R43, R44, R45 },    \
         { R50, R51, R52, R53, R54, R55 }   \
 }
+
+enum custom_keycodes {
+    KC_SCROLL = SAFE_RANGE,
+    KC_CPI_1,
+    KC_CPI_2,
+    KC_CPI_3
+};
+
+typedef union {
+  uint32_t raw;
+  struct {
+    uint16_t cpi;
+  };
+} config_oddball_t;
