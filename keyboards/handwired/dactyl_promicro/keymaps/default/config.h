@@ -21,6 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define MASTER_RIGHT
 #define ADNS_9800
+#define TAPPING_TOGGLE 2
 // #define MASTER_RIGHT
 //#define EE_HANDS
 // Rows are doubled-up

@@ -77,7 +77,7 @@
 #define US_BETWEEN_READS 20
 #define US_BEFORE_MOTION 100
 #define MSB1 0x80
-#define SPI_SS_PIN_SOFT D1
+#define SPI_SS_PIN_SOFT D2
 
 
 extern const uint16_t adns_firmware_length;
