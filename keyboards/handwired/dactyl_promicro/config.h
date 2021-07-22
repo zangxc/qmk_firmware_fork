@@ -23,12 +23,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* key matrix size */
 // Rows are doubled-up
-#define MATRIX_ROWS 10
+#define MATRIX_ROWS 12
 #define MATRIX_COLS 6
 
 // wiring of each half
 #define MATRIX_COL_PINS { D4, C6, D7, E6, B4, B5 }
-#define MATRIX_ROW_PINS { F4, F5, F6, F7, B6 }
+#define MATRIX_ROW_PINS { F4, F5, F6, F7, B6, D0 }
 
 #define DIODE_DIRECTION COL2ROW
 
@@ -39,11 +39,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define MANUFACTURER    tshort
 
 /* mouse config */
-#define MOUSEKEY_INTERVAL       20
+#define MOUSEKEY_INTERVAL       10
 #define MOUSEKEY_DELAY          0
 #define MOUSEKEY_TIME_TO_MAX    60
 #define MOUSEKEY_MAX_SPEED      7
-#define MOUSEKEY_WHEEL_DELAY 0
+#define MOUSEKEY_WHEEL_DELAY    0
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
