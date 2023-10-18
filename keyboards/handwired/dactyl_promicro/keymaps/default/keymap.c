@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______,KC_EXLM,KC_AT  ,KC_LBRC,KC_RBRC,KC_PIPE,                                       KC_F11 ,KC_P4  ,KC_P5  ,KC_P6  ,KC_PAST,_______ ,
         _______,KC_HASH,KC_DLR ,KC_LPRN,KC_RPRN,KC_GRV ,                                       KC_F12 ,KC_P1  ,KC_P2  ,KC_P3  ,KC_PPLS,_______,
         _______,KC_PERC,KC_CIRC,KC_LBRC,KC_RBRC,KC_TILD,                                       KC_AMPR,KC_P0  ,KC_DOT ,KC_ENT  ,KC_PSLS,_______,
-                    _______,_______,_______,_______,                                                   _______,_______,_______,
+                    _______,_______,_______,_______,                                                   _______,KC_LEFT,KC_RIGHT,
                                             _______,_______,                                      _______,
                                             _______,_______,                        _______, _______
     ),
@@ -62,7 +62,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         G(KC_TAB),KC_F1,KC_CPI_1,KC_MS_U,KC_CPI_2,_______,                                     KC_PGDOWN ,KC_WH_D,KC_UP,KC_WH_U,KC_PGUP,_______,
         _______,_______,KC_MS_L,KC_MS_D,KC_MS_R,_______,                                       KC_END  ,KC_BTN1, KC_BTN3,KC_BTN2,KC_HOME,_______,
         _______,_______,G(KC_X),G(KC_C),G(KC_V),_______,                                       KC_WBAK,KC_MINUS,KC_EQUAL,KC_LBRC,KC_RBRC,_______,
-                    RESET,_______,_______,_______,                                                      _______,_______,_______,
+                    RESET,_______,_______,_______,                                                      _______,KC_LEFT,KC_RIGHT,
                                             _______,_______,                                     _______,
                                             _______,_______,                        _______, _______
     )
